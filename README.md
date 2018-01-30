@@ -9,11 +9,35 @@ DEMO
 -------
 https://kimsunwook.github.io/ngSpacebar
 
+<br/>
+
 INSTALL
 -------
 
 ```
 bower install ng-spacebar --save
+```
+
+<br/>
+
+Quick start
+-------
+Copy-paste the stylesheet <script> into your <body>.
+
+```
+<script src=".bower_components/ngSpacebar/ngSpacebar.js"></script>
+```
+or
+```
+<script src=".bower_components/ngSpacebar/ngSpacebar.min.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngSpacebar/master/ngSpacebar.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngSpacebar/master/ngSpacebar.min.js"></script>
 ```
 
 <br/>
