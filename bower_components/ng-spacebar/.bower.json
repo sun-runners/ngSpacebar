@@ -1,6 +1,5 @@
 {
   "name": "ng-spacebar",
-  "version": "1.0.1",
   "homepage": "https://github.com/KimSunWook/ngSpacebar",
   "main": "ngSpacebar.js",
   "authors": [
@@ -43,10 +42,19 @@
     "cssist": "*",
     "animejs": "^2.2.0",
     "granim": "^1.1.0",
-    "reset.css": "^1.0.2",
-    "ng-spacebar": "ngSpacebar#*"
+    "reset.css": "^1.0.2"
   },
   "resolutions": {
     "angular": "~1.5.8"
-  }
+  },
+  "_release": "68ae0f9bea",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "68ae0f9bead94d2d84d9547d5f81bf5bad3cd579"
+  },
+  "_source": "https://github.com/KimSunWook/ngSpacebar.git",
+  "_target": "*",
+  "_originalSource": "ngSpacebar",
+  "_direct": true
 }
