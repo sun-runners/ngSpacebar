@@ -25,11 +25,11 @@ Quick start
 Copy-paste the stylesheet <script> into your <body>.
 
 ```
-<script src=".bower_components/ngSpacebar/ngSpacebar.js"></script>
+<script src=".bower_components/ng-spacebar/ngSpacebar.js"></script>
 ```
 or
 ```
-<script src=".bower_components/ngSpacebar/ngSpacebar.min.js"></script>
+<script src=".bower_components/ng-spacebar/ngSpacebar.min.js"></script>
 ```
 or
 ```
