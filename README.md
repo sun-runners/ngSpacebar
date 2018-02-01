@@ -1,7 +1,7 @@
 ngSpacebar
 =======
 
-Trigger an expression when the spacebar key is pressed.
+ngSpacebar is an angularjs library that triggers an expression when the spacebar key is pressed.
 
 <br/>
 
