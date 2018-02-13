@@ -24,6 +24,8 @@ Quick start
 -------
 Copy-paste the ```<script>``` into your ```<body>```.
 
+### ngSpacebar.js
+
 ```
 <script src=".bower_components/ng-spacebar/ngSpacebar.js"></script>
 ```
