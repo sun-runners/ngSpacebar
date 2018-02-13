@@ -22,7 +22,7 @@ bower install ng-spacebar --save
 
 Quick start
 -------
-Copy-paste the stylesheet <script> into your <body>.
+Copy-paste the ```<script>``` into your ```<body>```.
 
 ```
 <script src=".bower_components/ng-spacebar/ngSpacebar.js"></script>
