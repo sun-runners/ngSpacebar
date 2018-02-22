@@ -63,7 +63,7 @@ angular.module('myApp', [
   ng-spacebar-duration="1000" // The value of $ spacebar lasts true and the default value is 100 (ms).
   ng-class="[
     {'spacebar_classes':model.$spacebar}, // The value of $spacebar becomes true on click and turns false after duration (ms).
-    {'spacebar_classes':model.$spacebared} // The value of $spacebared is true when clicked and does not change.
+    {'spacebared_classes':model.$spacebared} // The value of $spacebared is true when clicked and does not change.
   ]">
 ```
 
