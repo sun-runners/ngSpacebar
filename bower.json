@@ -2,7 +2,9 @@
   "name": "ng-spacebar",
   "version": "1.0.2",
   "homepage": "https://github.com/KimSunWook/ngSpacebar",
-  "main": ["ngSpacebar.js", "ngSpacebar.min.js"],
+  "main": [
+    "ngSpacebar.js"
+  ],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
