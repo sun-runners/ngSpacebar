@@ -35,11 +35,11 @@ or
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.0/ngSpacebar.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.2/ngSpacebar.js"></script>
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.0/ngSpacebar.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.2/ngSpacebar.min.js"></script>
 ```
 
 <br/>
@@ -58,12 +58,26 @@ angular.module('myApp', [
 
 ```
 <input
-  ng-spacebar="message = 'spacebar pressed'" // Invoked when you press the Spacebar key
-  ng-spacebar-model="model" // If you do not put object, $spacebar and $spacebared values ​​are stored in scope.
-  ng-spacebar-duration="1000" // The value of $ spacebar lasts true and the default value is 100 (ms).
+  <!-- Invoked when you press the SPACEBAR key -->
+  ng-spacebar="message = 'SPACEBAR is pressed.'"
+
+  <!-- Called after duration (ms) after pressing the SPACEBAR key. -->
+  ng-spacebar-after="message = 'SPACEBAR was pressed 1 second ago.'"
+
+  <!-- If you do not put object, $spacebar and $spacebared values ​​are stored in scope. -->
+  ng-spacebar-model="model"
+
+  <!-- The value of $spacebar lasts true and the default value is 700 (ms). -->
+  ng-spacebar-duration="1000"
+
   ng-class="[
-    {'spacebar_classes':model.$spacebar}, // The value of $spacebar becomes true on click and turns false after duration (ms).
-    {'spacebared_classes':model.$spacebared} // The value of $spacebared is true when clicked and does not change.
+
+    <!-- The value of $spacebar becomes true on click and turns false after duration (ms). -->
+    {'spacebar_classes':model.$spacebar},
+
+    <!-- The value of $spacebared is true when clicked and does not change. -->
+    {'spacebared_classes':model.$spacebared}
+
   ]">
 ```
 

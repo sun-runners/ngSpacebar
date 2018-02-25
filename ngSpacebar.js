@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngSpacebar', ['ng'])
-  .directive("ngSpacebar", function ($rootScope, $timeout) {
+  .directive("ngSpacebar", ['$rootScope', '$timeout' function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
 
@@ -43,9 +43,10 @@
 
                // Set $spacebar false after duration
                var duration = Number(attrs.ngSpacebarDuration);
-               if(!(duration>=0)) duration = 100;
+               if(!(duration>=0)) duration = 700;
                timeout_spacebar = $timeout(function(){
                  model.$spacebar = false;
+                 scope.$eval(attrs.ngSpacebarAfter);
                }, duration);
              }
              event.preventDefault();
@@ -56,4 +57,4 @@
 			restrict:"EA"
 		};
 	});
-})(angular);
+}])(angular);
