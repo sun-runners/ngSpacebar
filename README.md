@@ -31,15 +31,7 @@ Copy-paste the ```<script>``` into your ```<body>```.
 ```
 or
 ```
-<script src=".bower_components/ng-spacebar/ngSpacebar.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.2/ngSpacebar.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.2/ngSpacebar.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.3/ngSpacebar.js"></script>
 ```
 
 <br/>

@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngSpacebar', ['ng'])
-  .directive("ngSpacebar", ['$rootScope', '$timeout' function ($rootScope, $timeout) {
+  .directive("ngSpacebar", ['$rootScope', '$timeout', function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
 
@@ -56,5 +56,5 @@
 			scope:false,
 			restrict:"EA"
 		};
-	});
-}])(angular);
+  }]);
+})(angular);
