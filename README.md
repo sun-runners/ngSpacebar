@@ -35,11 +35,11 @@ or
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.0.2/ngSpacebar.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.0/ngSpacebar.js"></script>
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.0.2/ngSpacebar.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngSpacebar/v1.1.0/ngSpacebar.min.js"></script>
 ```
 
 <br/>
